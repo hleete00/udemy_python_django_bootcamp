@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <form>
+        <h1> Log In </h1>
+        <h2> Please Input your Email and Password </h2>
+
+        <input type="email" name="user_email" value="Enter email here">
+        <input type="password" name="user_password" value="">
+        <input type="submit">
+    </form>
+    <br><br>
+    <form>
+        <h1> Choose a color! </h1>
+        <h2> Click on the button! </h2>
+        <input type="color">
+    </form>
+    <br><br>
+    <form>
+        <h2> Enter some text </h2>
+        <input type="text" value="text goes here">
+    </form>
+    <br><br>
+    <form action="http://www.google.com" method="get">
+        <p>Enter text:</p>
+        <input type="text" name="user_input">
+        <input type="submit">
+    </form>
+    <br><br>
+    <form>
+        <label>
+            Enter some text:
+            <input type="text" value="blockOne">
+        </label>
+        <label>
+            Enter some more text:
+            <input type="text" value="blockTwo">
+        </label>
+    </form>
+    <br><br>
+    <form>
+        <label for="userinput"> Enter Input: </label>
+        <input id="userinput" type="text" placeholder="Hello world!">
+    </form>
+    <br><br>
+    <form>
+        <input type="text" placeholder="not required">
+        <input type="text" placeholder="required" required>
+        <input type="submit">
+    </form>
+    <br><br>
+
+    <h1> Hotel Feedback Form </h1>
+    <form>
+        <h3> Are you from inside the USA? Or outside the USA? </h3>
+        <label for="inUSA">Inside</label>
+        <input id="inUSA" type="radio" name="loc" value="inside">
+
+        <label for="outUSA">Outside</label>
+        <input id="outUSA" type="radio" name="loc" value="outside">
+
+        <h2> How was your service? </h2>
+        <select name="stars">
+            <option value="Bad">1</option>
+            <option value="Okay">2</option>
+            <option value="Great">3</option>
+        </select>
+
+        <h2> Any other feedback? </h2>
+        <textarea name="mytext" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

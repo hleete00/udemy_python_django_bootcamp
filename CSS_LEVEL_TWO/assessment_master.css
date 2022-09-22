@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+td {
+    width: 150px;
+    height: 300px;
+}
+
+.slot0 {
+    background: #A41623;
+}
+
+.slot1 {
+    background: #F85E00;
+}
+
+.slot2 {
+    background: #FFB563;
+}
+
+.slot3 {
+    background: #FFD29D;
+}
+
+.slot4 {
+    background: #918450;
+}
+
+table {
+    margin: auto;
+    border-spacing: 15px;
+}

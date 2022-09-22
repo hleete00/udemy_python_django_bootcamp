@@ -1,0 +1,48 @@
+body {
+    font-family: 'Advent Pro', sans-serif;
+    background: darkblue;
+    color: white;
+    text-align: center;
+    border: 60px solid cyan;
+    border-top: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 24pt;
+}
+
+h3 {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 18pt;
+}
+
+p {
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+form {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+#button {
+    background: orange;
+    color: black;
+    width: 120px;
+    height: 50px;
+    font-size: 14pt;
+    border-radius: 12px;
+    margin: 10px;
+}
